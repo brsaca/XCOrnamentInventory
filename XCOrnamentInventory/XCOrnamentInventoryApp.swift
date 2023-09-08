@@ -14,7 +14,9 @@ struct XCOrnamentInventoryApp: App {
     
     var body: some Scene {
         WindowGroup {
-            InventoryListView()
+            NavigationStack {
+                InventoryListView()
+            }
         }
     }
 }
