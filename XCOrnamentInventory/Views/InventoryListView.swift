@@ -10,6 +10,7 @@ import SwiftUI
 struct InventoryListView: View {
     
     @StateObject var vm = InventoryListVM()
+    @State var formType: FormType?
     
     var body: some View {
         List {
@@ -18,11 +19,25 @@ struct InventoryListView: View {
                     .listRowSeparator(.hidden)
                     .contentShape(Rectangle())
                     .onTapGesture {
-                        
+                        formType = .edit(item)
                     }
             }
         }
         .navigationTitle("AR Inventory")
+        .toolbar {
+            ToolbarItem(placement: .primaryAction) {
+                Button("+ Item") {
+                    formType = .add
+                }
+            }
+        }
+        .sheet(item: $formType) { type in
+            NavigationStack {
+                InventoryFormView(vm: .init(formType: type))
+            }
+            .presentationDetents([.fraction(0.85)])
+            .interactiveDismissDisabled()
+        }
         .onAppear {
             vm.listenToItems()
         }
