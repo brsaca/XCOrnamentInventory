@@ -91,10 +91,14 @@ class InventoryFormVM: ObservableObject {
     }
     
     @MainActor
-    func uploadUSDZ(fileURL: URL) async {
-        let gotAccess = fileURL.startAccessingSecurityScopedResource()
-        guard gotAccess, let data = try? Data(contentsOf: fileURL) else { return }
-        fileURL.stopAccessingSecurityScopedResource()
+    func uploadUSDZ(fileURL: URL, isSecurityScopedResource: Bool = false) async {
+        if isSecurityScopedResource, !fileURL.startAccessingSecurityScopedResource() {
+            return
+        }
+        guard let data = try? Data(contentsOf: fileURL) else { return }
+        if isSecurityScopedResource {
+            fileURL.stopAccessingSecurityScopedResource()
+        }
         
         uploadProgress = .init(UploadProgress(fractionCompleted: 0, totalUnitCount: 0, completedUnitCount: 0))
         loadingState = .uploading(.usdz)

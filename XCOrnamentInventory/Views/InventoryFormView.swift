@@ -8,6 +8,7 @@
 import SafariServices
 import SwiftUI
 import UniformTypeIdentifiers
+//import USDZScanner
 
 struct InventoryFormView: View {
     
@@ -48,10 +49,20 @@ struct InventoryFormView: View {
                 vm.selectedUSDZSource = .objectCapture
             }
         })
+        .sheet(isPresented: .init(get: {
+            vm.selectedUSDZSource == .objectCapture
+        }, set: { _ in
+            vm.selectedUSDZSource = nil
+        }), content: {
+           /* USDZScanner { url in
+                Task { await vm.uploadUSDZ(fileURL: url) }
+                vm.selectedUSDZSource = nil
+            }*/
+        })
         .fileImporter(isPresented: .init(get: { vm.selectedUSDZSource == .fileImporter }, set: { _ in vm.selectedUSDZSource = nil }), allowedContentTypes: [UTType.usdz], onCompletion: { result in
             switch result {
             case .success(let url):
-                Task { await vm.uploadUSDZ(fileURL: url) }
+                Task { await vm.uploadUSDZ(fileURL: url, isSecurityScopedResource: true) }
             case .failure(let failure):
                 vm.error = failure.localizedDescription
             }
@@ -154,3 +165,6 @@ extension UIApplication {
         InventoryFormView()
     }
 }
+
+#warning ("Remove comments")
+//https://youtu.be/DxVmeVf0Wwg?si=qAIwwGHf6ol9UobO&t=6361
