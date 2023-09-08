@@ -86,5 +86,3 @@ struct InventoryListItemView: View {
         InventoryListView()
     }
 }
-
-// https://youtu.be/DxVmeVf0Wwg?si=jOwufHok7y_DM8zh&t=2599
