@@ -19,7 +19,6 @@
 		4B6FD57A2AAB7F3A0053E5AF /* InventoryFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6FD5792AAB7F3A0053E5AF /* InventoryFormView.swift */; };
 		4B6FD57D2AAB7F720053E5AF /* InventoryFormVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6FD57C2AAB7F720053E5AF /* InventoryFormVM.swift */; };
 		4BADA41F2AAA2D3D007B3DFC /* XCOrnamentInventoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BADA41E2AAA2D3D007B3DFC /* XCOrnamentInventoryApp.swift */; };
-		4BADA4212AAA2D3D007B3DFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BADA4202AAA2D3D007B3DFC /* ContentView.swift */; };
 		4BADA4232AAA2D3F007B3DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BADA4222AAA2D3F007B3DFC /* Assets.xcassets */; };
 		4BADA4262AAA2D3F007B3DFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BADA4252AAA2D3F007B3DFC /* Preview Assets.xcassets */; };
 		4BADA4352AAA3BCA007B3DFC /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 4BADA4342AAA3BCA007B3DFC /* RealityKitContent */; };
@@ -49,7 +48,6 @@
 		4B6FD57C2AAB7F720053E5AF /* InventoryFormVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryFormVM.swift; sourceTree = "<group>"; };
 		4BADA41B2AAA2D3D007B3DFC /* XCOrnamentInventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCOrnamentInventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BADA41E2AAA2D3D007B3DFC /* XCOrnamentInventoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCOrnamentInventoryApp.swift; sourceTree = "<group>"; };
-		4BADA4202AAA2D3D007B3DFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4BADA4222AAA2D3F007B3DFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BADA4252AAA2D3F007B3DFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4BADA4302AAA3BCA007B3DFC /* XCOrnamentInventoryVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCOrnamentInventoryVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -159,7 +157,6 @@
 				4B413E102AAA59CA006E4CAA /* Views */,
 				4B413DFF2AAA4BCC006E4CAA /* Info.plist */,
 				4BADA41E2AAA2D3D007B3DFC /* XCOrnamentInventoryApp.swift */,
-				4BADA4202AAA2D3D007B3DFC /* ContentView.swift */,
 				4BADA4222AAA2D3F007B3DFC /* Assets.xcassets */,
 				4BADA4502AAA3E99007B3DFC /* GoogleService-Info.plist */,
 				4BADA4242AAA2D3F007B3DFC /* Preview Content */,
@@ -328,7 +325,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B413E032AAA4C5C006E4CAA /* AppDelegate.swift in Sources */,
-				4BADA4212AAA2D3D007B3DFC /* ContentView.swift in Sources */,
 				4BADA41F2AAA2D3D007B3DFC /* XCOrnamentInventoryApp.swift in Sources */,
 				4B6FD57D2AAB7F720053E5AF /* InventoryFormVM.swift in Sources */,
 				4B413E0B2AAA52CB006E4CAA /* InventoryListVM.swift in Sources */,
