@@ -6,10 +6,10 @@
 //
 
 import FirebaseFirestore
-import SwiftUI
 import Foundation
+import SwiftUI
 
-class InventoryListVM: ObservedObject {
+class InventoryListVM: ObservableObject {
     
     @Published var items = [InventoryItem]()
     
@@ -24,8 +24,9 @@ class InventoryListVM: ObservedObject {
                     return
                 }
                 let docs = snapshot.documents
-                let items = docs.compactMap{
-                    try? $0.data(as: InventoryItem.self)
+                
+                let items = docs.compactMap {
+                    return try? $0.data(as: InventoryItem.self)
                 }
                 
                 withAnimation{

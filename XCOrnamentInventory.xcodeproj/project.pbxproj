@@ -7,18 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B413E032AAA4C5C006E4CAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B413E022AAA4C5C006E4CAA /* AppDelegate.swift */; };
+		4B413E042AAA4C5C006E4CAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B413E022AAA4C5C006E4CAA /* AppDelegate.swift */; };
+		4B413E072AAA4F15006E4CAA /* InventoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B413E062AAA4F15006E4CAA /* InventoryItem.swift */; };
+		4B413E082AAA4F15006E4CAA /* InventoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B413E062AAA4F15006E4CAA /* InventoryItem.swift */; };
+		4B413E0B2AAA52CB006E4CAA /* InventoryListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B413E0A2AAA52CB006E4CAA /* InventoryListVM.swift */; };
+		4B413E0C2AAA52CB006E4CAA /* InventoryListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B413E0A2AAA52CB006E4CAA /* InventoryListVM.swift */; };
+		4B413E0E2AAA5423006E4CAA /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B413E0D2AAA5423006E4CAA /* String+Extension.swift */; };
+		4B413E0F2AAA5423006E4CAA /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B413E0D2AAA5423006E4CAA /* String+Extension.swift */; };
+		4B413E122AAA59DE006E4CAA /* InventoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B413E112AAA59DE006E4CAA /* InventoryListView.swift */; };
 		4BADA41F2AAA2D3D007B3DFC /* XCOrnamentInventoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BADA41E2AAA2D3D007B3DFC /* XCOrnamentInventoryApp.swift */; };
 		4BADA4212AAA2D3D007B3DFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BADA4202AAA2D3D007B3DFC /* ContentView.swift */; };
 		4BADA4232AAA2D3F007B3DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BADA4222AAA2D3F007B3DFC /* Assets.xcassets */; };
 		4BADA4262AAA2D3F007B3DFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BADA4252AAA2D3F007B3DFC /* Preview Assets.xcassets */; };
+		4BADA4352AAA3BCA007B3DFC /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 4BADA4342AAA3BCA007B3DFC /* RealityKitContent */; };
+		4BADA4372AAA3BCA007B3DFC /* XCOrnamentInventoryVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BADA4362AAA3BCA007B3DFC /* XCOrnamentInventoryVisionApp.swift */; };
+		4BADA4392AAA3BCA007B3DFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BADA4382AAA3BCA007B3DFC /* ContentView.swift */; };
+		4BADA43B2AAA3BCD007B3DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BADA43A2AAA3BCD007B3DFC /* Assets.xcassets */; };
+		4BADA43E2AAA3BCD007B3DFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BADA43D2AAA3BCD007B3DFC /* Preview Assets.xcassets */; };
+		4BADA4452AAA3D95007B3DFC /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 4BADA4442AAA3D95007B3DFC /* FirebaseFirestore */; };
+		4BADA4472AAA3D96007B3DFC /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4BADA4462AAA3D96007B3DFC /* FirebaseFirestoreSwift */; };
+		4BADA4492AAA3D96007B3DFC /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 4BADA4482AAA3D96007B3DFC /* FirebaseStorage */; };
+		4BADA44B2AAA3DB0007B3DFC /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 4BADA44A2AAA3DB0007B3DFC /* FirebaseFirestore */; };
+		4BADA44D2AAA3DB0007B3DFC /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4BADA44C2AAA3DB0007B3DFC /* FirebaseFirestoreSwift */; };
+		4BADA44F2AAA3DB0007B3DFC /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 4BADA44E2AAA3DB0007B3DFC /* FirebaseStorage */; };
+		4BADA4512AAA3E9A007B3DFC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4BADA4502AAA3E99007B3DFC /* GoogleService-Info.plist */; };
+		4BADA4532AAA3EF2007B3DFC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4BADA4522AAA3EF2007B3DFC /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B413DFF2AAA4BCC006E4CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4B413E002AAA4BF4006E4CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4B413E022AAA4C5C006E4CAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B413E062AAA4F15006E4CAA /* InventoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryItem.swift; sourceTree = "<group>"; };
+		4B413E0A2AAA52CB006E4CAA /* InventoryListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryListVM.swift; sourceTree = "<group>"; };
+		4B413E0D2AAA5423006E4CAA /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		4B413E112AAA59DE006E4CAA /* InventoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryListView.swift; sourceTree = "<group>"; };
 		4BADA41B2AAA2D3D007B3DFC /* XCOrnamentInventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCOrnamentInventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BADA41E2AAA2D3D007B3DFC /* XCOrnamentInventoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCOrnamentInventoryApp.swift; sourceTree = "<group>"; };
 		4BADA4202AAA2D3D007B3DFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4BADA4222AAA2D3F007B3DFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BADA4252AAA2D3F007B3DFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4BADA4302AAA3BCA007B3DFC /* XCOrnamentInventoryVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCOrnamentInventoryVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BADA4332AAA3BCA007B3DFC /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		4BADA4362AAA3BCA007B3DFC /* XCOrnamentInventoryVisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCOrnamentInventoryVisionApp.swift; sourceTree = "<group>"; };
+		4BADA4382AAA3BCA007B3DFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4BADA43A2AAA3BCD007B3DFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BADA43D2AAA3BCD007B3DFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4BADA4502AAA3E99007B3DFC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4BADA4522AAA3EF2007B3DFC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +63,70 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BADA4452AAA3D95007B3DFC /* FirebaseFirestore in Frameworks */,
+				4BADA4472AAA3D96007B3DFC /* FirebaseFirestoreSwift in Frameworks */,
+				4BADA4492AAA3D96007B3DFC /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BADA42D2AAA3BCA007B3DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BADA4352AAA3BCA007B3DFC /* RealityKitContent in Frameworks */,
+				4BADA44F2AAA3DB0007B3DFC /* FirebaseStorage in Frameworks */,
+				4BADA44B2AAA3DB0007B3DFC /* FirebaseFirestore in Frameworks */,
+				4BADA44D2AAA3DB0007B3DFC /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B413E012AAA4C3D006E4CAA /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4B413E092AAA52B4006E4CAA /* Observables */,
+				4B413E052AAA4F07006E4CAA /* Models */,
+				4B413E022AAA4C5C006E4CAA /* AppDelegate.swift */,
+				4B413E0D2AAA5423006E4CAA /* String+Extension.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4B413E052AAA4F07006E4CAA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4B413E062AAA4F15006E4CAA /* InventoryItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4B413E092AAA52B4006E4CAA /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				4B413E0A2AAA52CB006E4CAA /* InventoryListVM.swift */,
+			);
+			path = Observables;
+			sourceTree = "<group>";
+		};
+		4B413E102AAA59CA006E4CAA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4B413E112AAA59DE006E4CAA /* InventoryListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		4BADA4122AAA2D3C007B3DFC = {
 			isa = PBXGroup;
 			children = (
+				4B413E012AAA4C3D006E4CAA /* Shared */,
 				4BADA41D2AAA2D3D007B3DFC /* XCOrnamentInventory */,
+				4BADA4312AAA3BCA007B3DFC /* XCOrnamentInventoryVision */,
+				4BADA4322AAA3BCA007B3DFC /* Packages */,
 				4BADA41C2AAA2D3D007B3DFC /* Products */,
+				4BADA4432AAA3D95007B3DFC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -44,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				4BADA41B2AAA2D3D007B3DFC /* XCOrnamentInventory.app */,
+				4BADA4302AAA3BCA007B3DFC /* XCOrnamentInventoryVision.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,9 +142,12 @@
 		4BADA41D2AAA2D3D007B3DFC /* XCOrnamentInventory */ = {
 			isa = PBXGroup;
 			children = (
+				4B413E102AAA59CA006E4CAA /* Views */,
+				4B413DFF2AAA4BCC006E4CAA /* Info.plist */,
 				4BADA41E2AAA2D3D007B3DFC /* XCOrnamentInventoryApp.swift */,
 				4BADA4202AAA2D3D007B3DFC /* ContentView.swift */,
 				4BADA4222AAA2D3F007B3DFC /* Assets.xcassets */,
+				4BADA4502AAA3E99007B3DFC /* GoogleService-Info.plist */,
 				4BADA4242AAA2D3F007B3DFC /* Preview Content */,
 			);
 			path = XCOrnamentInventory;
@@ -65,6 +159,42 @@
 				4BADA4252AAA2D3F007B3DFC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4BADA4312AAA3BCA007B3DFC /* XCOrnamentInventoryVision */ = {
+			isa = PBXGroup;
+			children = (
+				4B413E002AAA4BF4006E4CAA /* Info.plist */,
+				4BADA4362AAA3BCA007B3DFC /* XCOrnamentInventoryVisionApp.swift */,
+				4BADA4382AAA3BCA007B3DFC /* ContentView.swift */,
+				4BADA4522AAA3EF2007B3DFC /* GoogleService-Info.plist */,
+				4BADA43A2AAA3BCD007B3DFC /* Assets.xcassets */,
+				4BADA43C2AAA3BCD007B3DFC /* Preview Content */,
+			);
+			path = XCOrnamentInventoryVision;
+			sourceTree = "<group>";
+		};
+		4BADA4322AAA3BCA007B3DFC /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				4BADA4332AAA3BCA007B3DFC /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		4BADA43C2AAA3BCD007B3DFC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4BADA43D2AAA3BCD007B3DFC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4BADA4432AAA3D95007B3DFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,8 +213,36 @@
 			dependencies = (
 			);
 			name = XCOrnamentInventory;
+			packageProductDependencies = (
+				4BADA4442AAA3D95007B3DFC /* FirebaseFirestore */,
+				4BADA4462AAA3D96007B3DFC /* FirebaseFirestoreSwift */,
+				4BADA4482AAA3D96007B3DFC /* FirebaseStorage */,
+			);
 			productName = XCOrnamentInventory;
 			productReference = 4BADA41B2AAA2D3D007B3DFC /* XCOrnamentInventory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BADA42F2AAA3BCA007B3DFC /* XCOrnamentInventoryVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BADA43F2AAA3BCD007B3DFC /* Build configuration list for PBXNativeTarget "XCOrnamentInventoryVision" */;
+			buildPhases = (
+				4BADA42C2AAA3BCA007B3DFC /* Sources */,
+				4BADA42D2AAA3BCA007B3DFC /* Frameworks */,
+				4BADA42E2AAA3BCA007B3DFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XCOrnamentInventoryVision;
+			packageProductDependencies = (
+				4BADA4342AAA3BCA007B3DFC /* RealityKitContent */,
+				4BADA44A2AAA3DB0007B3DFC /* FirebaseFirestore */,
+				4BADA44C2AAA3DB0007B3DFC /* FirebaseFirestoreSwift */,
+				4BADA44E2AAA3DB0007B3DFC /* FirebaseStorage */,
+			);
+			productName = XCOrnamentInventoryVision;
+			productReference = 4BADA4302AAA3BCA007B3DFC /* XCOrnamentInventoryVision.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,6 +258,9 @@
 					4BADA41A2AAA2D3D007B3DFC = {
 						CreatedOnToolsVersion = 15.0;
 					};
+					4BADA42F2AAA3BCA007B3DFC = {
+						CreatedOnToolsVersion = 15.0;
+					};
 				};
 			};
 			buildConfigurationList = 4BADA4162AAA2D3C007B3DFC /* Build configuration list for PBXProject "XCOrnamentInventory" */;
@@ -111,11 +272,15 @@
 				Base,
 			);
 			mainGroup = 4BADA4122AAA2D3C007B3DFC;
+			packageReferences = (
+				4BADA4422AAA3D59007B3DFC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 4BADA41C2AAA2D3D007B3DFC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				4BADA41A2AAA2D3D007B3DFC /* XCOrnamentInventory */,
+				4BADA42F2AAA3BCA007B3DFC /* XCOrnamentInventoryVision */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +292,17 @@
 			files = (
 				4BADA4262AAA2D3F007B3DFC /* Preview Assets.xcassets in Resources */,
 				4BADA4232AAA2D3F007B3DFC /* Assets.xcassets in Resources */,
+				4BADA4512AAA3E9A007B3DFC /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BADA42E2AAA3BCA007B3DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BADA43E2AAA3BCD007B3DFC /* Preview Assets.xcassets in Resources */,
+				4BADA43B2AAA3BCD007B3DFC /* Assets.xcassets in Resources */,
+				4BADA4532AAA3EF2007B3DFC /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +313,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B413E032AAA4C5C006E4CAA /* AppDelegate.swift in Sources */,
 				4BADA4212AAA2D3D007B3DFC /* ContentView.swift in Sources */,
 				4BADA41F2AAA2D3D007B3DFC /* XCOrnamentInventoryApp.swift in Sources */,
+				4B413E0B2AAA52CB006E4CAA /* InventoryListVM.swift in Sources */,
+				4B413E0E2AAA5423006E4CAA /* String+Extension.swift in Sources */,
+				4B413E072AAA4F15006E4CAA /* InventoryItem.swift in Sources */,
+				4B413E122AAA59DE006E4CAA /* InventoryListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BADA42C2AAA3BCA007B3DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B413E042AAA4C5C006E4CAA /* AppDelegate.swift in Sources */,
+				4BADA4392AAA3BCA007B3DFC /* ContentView.swift in Sources */,
+				4BADA4372AAA3BCA007B3DFC /* XCOrnamentInventoryVisionApp.swift in Sources */,
+				4B413E0C2AAA52CB006E4CAA /* InventoryListVM.swift in Sources */,
+				4B413E0F2AAA5423006E4CAA /* String+Extension.swift in Sources */,
+				4B413E082AAA4F15006E4CAA /* InventoryItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +469,7 @@
 				DEVELOPMENT_TEAM = 3RQAYNAD56;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XCOrnamentInventory/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +499,7 @@
 				DEVELOPMENT_TEAM = 3RQAYNAD56;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XCOrnamentInventory/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -319,6 +515,68 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4BADA4402AAA3BCD007B3DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"XCOrnamentInventoryVision/Preview Content\"";
+				DEVELOPMENT_TEAM = 3RQAYNAD56;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XCOrnamentInventoryVision/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bsc.XCOrnamentInventoryVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		4BADA4412AAA3BCD007B3DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"XCOrnamentInventoryVision/Preview Content\"";
+				DEVELOPMENT_TEAM = 3RQAYNAD56;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XCOrnamentInventoryVision/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bsc.XCOrnamentInventoryVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = xros;
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
 			name = Release;
 		};
@@ -343,7 +601,64 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		4BADA43F2AAA3BCD007B3DFC /* Build configuration list for PBXNativeTarget "XCOrnamentInventoryVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BADA4402AAA3BCD007B3DFC /* Debug */,
+				4BADA4412AAA3BCD007B3DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4BADA4422AAA3D59007B3DFC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.13.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4BADA4342AAA3BCA007B3DFC /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+		4BADA4442AAA3D95007B3DFC /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4BADA4422AAA3D59007B3DFC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		4BADA4462AAA3D96007B3DFC /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4BADA4422AAA3D59007B3DFC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		4BADA4482AAA3D96007B3DFC /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4BADA4422AAA3D59007B3DFC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		4BADA44A2AAA3DB0007B3DFC /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4BADA4422AAA3D59007B3DFC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		4BADA44C2AAA3DB0007B3DFC /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4BADA4422AAA3D59007B3DFC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		4BADA44E2AAA3DB0007B3DFC /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4BADA4422AAA3D59007B3DFC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4BADA4132AAA2D3C007B3DFC /* Project object */;
 }
