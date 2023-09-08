@@ -16,6 +16,8 @@
 		4B413E0E2AAA5423006E4CAA /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B413E0D2AAA5423006E4CAA /* String+Extension.swift */; };
 		4B413E0F2AAA5423006E4CAA /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B413E0D2AAA5423006E4CAA /* String+Extension.swift */; };
 		4B413E122AAA59DE006E4CAA /* InventoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B413E112AAA59DE006E4CAA /* InventoryListView.swift */; };
+		4B6FD57A2AAB7F3A0053E5AF /* InventoryFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6FD5792AAB7F3A0053E5AF /* InventoryFormView.swift */; };
+		4B6FD57D2AAB7F720053E5AF /* InventoryFormVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6FD57C2AAB7F720053E5AF /* InventoryFormVM.swift */; };
 		4BADA41F2AAA2D3D007B3DFC /* XCOrnamentInventoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BADA41E2AAA2D3D007B3DFC /* XCOrnamentInventoryApp.swift */; };
 		4BADA4212AAA2D3D007B3DFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BADA4202AAA2D3D007B3DFC /* ContentView.swift */; };
 		4BADA4232AAA2D3F007B3DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BADA4222AAA2D3F007B3DFC /* Assets.xcassets */; };
@@ -43,6 +45,8 @@
 		4B413E0A2AAA52CB006E4CAA /* InventoryListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryListVM.swift; sourceTree = "<group>"; };
 		4B413E0D2AAA5423006E4CAA /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		4B413E112AAA59DE006E4CAA /* InventoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryListView.swift; sourceTree = "<group>"; };
+		4B6FD5792AAB7F3A0053E5AF /* InventoryFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryFormView.swift; sourceTree = "<group>"; };
+		4B6FD57C2AAB7F720053E5AF /* InventoryFormVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryFormVM.swift; sourceTree = "<group>"; };
 		4BADA41B2AAA2D3D007B3DFC /* XCOrnamentInventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCOrnamentInventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BADA41E2AAA2D3D007B3DFC /* XCOrnamentInventoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCOrnamentInventoryApp.swift; sourceTree = "<group>"; };
 		4BADA4202AAA2D3D007B3DFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -114,8 +118,17 @@
 			isa = PBXGroup;
 			children = (
 				4B413E112AAA59DE006E4CAA /* InventoryListView.swift */,
+				4B6FD5792AAB7F3A0053E5AF /* InventoryFormView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		4B6FD57B2AAB7F570053E5AF /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				4B6FD57C2AAB7F720053E5AF /* InventoryFormVM.swift */,
+			);
+			path = Observables;
 			sourceTree = "<group>";
 		};
 		4BADA4122AAA2D3C007B3DFC = {
@@ -142,6 +155,7 @@
 		4BADA41D2AAA2D3D007B3DFC /* XCOrnamentInventory */ = {
 			isa = PBXGroup;
 			children = (
+				4B6FD57B2AAB7F570053E5AF /* Observables */,
 				4B413E102AAA59CA006E4CAA /* Views */,
 				4B413DFF2AAA4BCC006E4CAA /* Info.plist */,
 				4BADA41E2AAA2D3D007B3DFC /* XCOrnamentInventoryApp.swift */,
@@ -316,10 +330,12 @@
 				4B413E032AAA4C5C006E4CAA /* AppDelegate.swift in Sources */,
 				4BADA4212AAA2D3D007B3DFC /* ContentView.swift in Sources */,
 				4BADA41F2AAA2D3D007B3DFC /* XCOrnamentInventoryApp.swift in Sources */,
+				4B6FD57D2AAB7F720053E5AF /* InventoryFormVM.swift in Sources */,
 				4B413E0B2AAA52CB006E4CAA /* InventoryListVM.swift in Sources */,
 				4B413E0E2AAA5423006E4CAA /* String+Extension.swift in Sources */,
 				4B413E072AAA4F15006E4CAA /* InventoryItem.swift in Sources */,
 				4B413E122AAA59DE006E4CAA /* InventoryListView.swift in Sources */,
+				4B6FD57A2AAB7F3A0053E5AF /* InventoryFormView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
